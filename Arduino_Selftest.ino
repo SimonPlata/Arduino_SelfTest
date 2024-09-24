@@ -47,8 +47,8 @@ void setup() {
     // Test for floating Input
     digitalWrite(i, LOW);
     pinMode(i, OUTPUT);
-    delay(10);
     pinMode(i, INPUT);
+    delay(10);
     // read the input value:
     d = digitalRead(i);
     if(d == 0) {
